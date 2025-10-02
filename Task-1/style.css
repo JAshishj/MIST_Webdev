@@ -38,7 +38,7 @@ hr{
 
 .image{
     height: 400px;
-    width: 500px;
+    width: 4500px;
     border-radius: 50px;
     object-fit: cover;
 }
@@ -79,6 +79,11 @@ hr{
     left: 200px;
     margin-right: 4px;
 }
+
+#l:hover{
+    color: yellow;
+}
+
 #amp{
     font-size: 25px;
     color: rgb(247, 247, 247);
@@ -86,3 +91,4 @@ hr{
     bottom: 0px;
     left: 160px;
 }
+
