@@ -38,7 +38,7 @@ hr{
 
 .image{
     height: 400px;
-    width: 4500px;
+    width: 5000px;
     border-radius: 50px;
     object-fit: cover;
 }
@@ -91,4 +91,5 @@ hr{
     bottom: 0px;
     left: 160px;
 }
+
 
