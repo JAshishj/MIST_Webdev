@@ -18,7 +18,6 @@ function CheckDisplay(){
         if(display[i] === 1)
             count++;
     }
-    console.log(display);
     if(count > 1)
         return false;
     else
@@ -277,3 +276,4 @@ document.getElementById("idli").onclick= function() {
         display_idli=0;
     }
 }
+
