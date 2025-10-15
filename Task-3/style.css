@@ -1,0 +1,149 @@
+body{
+    background-color: black;
+}
+
+.menu{
+    text-align: center;
+    font-size: 30px;
+}
+
+.mlink{
+    color: rgb(255, 166, 0);
+    padding: 20px;
+    margin: auto;
+    text-decoration: none;
+}
+
+.mlink:hover{
+    color: yellow;
+}
+
+#main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 30px;
+    row-gap: 0px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h1{
+    color: rgb(255, 166, 0);
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline ;
+}
+
+h2{
+    color: rgb(255, 166, 0);
+    text-align: left;
+    font-size: 35px;
+    text-decoration: underline ;
+}
+
+#home{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 5px;
+}
+
+#about{
+    font-size: 28px;
+    color: rgb(247, 247, 247);
+    margin: 10px;
+    padding: 5px;
+}
+
+hr{
+    border: 2px solid;
+    color: orange ;
+    margin: 20px 0 ;
+
+}
+
+.container{
+    display: flex;
+    background: transparent;
+    padding: 20px; 
+    border-radius: 50px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
+    margin-bottom: 20px;
+    margin-top: 10px;
+    gap: 10px;
+    transition: all 0.3s ease;
+}
+
+.food{
+    color: orange;
+    font-size: 40px;
+    text-decoration: underline;
+    font-weight: bolder;
+    padding: 10px;
+    margin: 10px;
+}
+
+.image{
+    width: 450px;
+    height: 400px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.image:hover{
+    cursor: pointer;
+    transform: scale(1.05); 
+    transition: transform 0.3s ease; 
+    opacity: 0.9; 
+}
+
+.text{
+    font-size: 28px;
+    color: rgb(247, 247, 247);
+    margin: 10px;
+    padding: 5px;
+    position: relative;
+}
+
+.link{
+    font-size: 25px;
+    color: rgb(247, 161, 1);
+    padding: 1px;
+    position: absolute;
+    bottom: 0px;
+    left: 0.5px;
+}
+
+.link:hover{
+    color: yellow;
+}
+
+#l{
+    font-size: 25px;
+    color: rgb(247, 161, 1);
+    padding: 1px;
+    position: absolute;
+    bottom: 0px;
+    left: 200px;
+    margin-right: 4px;
+}
+
+#l:hover{
+    color: yellow;
+}
+
+#amp{
+    font-size: 25px;
+    color: rgb(247, 247, 247);
+    position: absolute;
+    bottom: 0px;
+    left: 160px;
+}
+
+#bisi_text,#neer_text,#masala_text,#akki_text,#kesari_text,#buns_text,#goli_text,#chow_text,#pundi_text,#kadle_text,#idli_text{
+    display: none;
+}
+
+#bisi_title,#neer_title,#masala_title,#akki_title,#kesari_title,#buns_title,#goli_title,#chow_title,#pundi_title,#kadle_title,#idli_title{
+    display: none;
+}
