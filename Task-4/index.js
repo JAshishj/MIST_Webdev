@@ -125,7 +125,7 @@ const movies = [
     genre: "Animation, Action, Adventure",
     rating: "8.4",
     description: "Teenager Miles Morales becomes Spider-Man and joins other Spider-People from across dimensions to stop a powerful threat.",
-    image: "Images/Into_the_SpiderVerse.jpg"
+    image: "Images/Into_the_spiderVerse.jpg"
   },
   {
     title: "Ford v Ferrari",
@@ -304,3 +304,4 @@ if (searchInput && searchResults && genreFilter) {
   searchInput.addEventListener("input", filterMovies);
   genreFilter.addEventListener("change", filterMovies);
 }
+
