@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieVerse</title>
+    <link rel="shortcut icon" href="Images/icon.png" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class=" movies relative mx-2 bg-gray-900 scroll-smooth flex flex-col min-h-screen">
+    <header>
+        <h1 class="text-5xl text-blue-200 text-center pt-2 pb-4 underline">MovieVerse</h1>
+
+        <nav class="bg-[rgb(26,26,26)] text-center border-2 rounded-xl shadow-inner">
+            <ul class="text-[24px] text-blue-500 p-2 m-0 list-none">
+                <li class="inline-block px-10 hover:text-blue-700 hover:underline"><a href="index.html">Home</a></li>
+                <li class="inline-block px-10 hover:text-blue-700 hover:underline"><a href="#movies">Movies</a></li>
+                <li class="inline-block px-10 hover:text-blue-700 hover:underline"><a href="search.html">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2 class="text-[35px] text-white pt-2 underline">Recommended:-</h2>
+    <br>
+
+    <!-- Dynamic Movie Grid -->
+    <div id="movie-grid" class="grid grid-cols-5 gap-y-10 ml-2">
+        <!-- Movies will be generated here by JavaScript -->
+    </div>
+
+    <div id="main" class="hidden fixed inset-0 bg-black/50 backdrop-blur-xs justify-center items-center ">
+        <div id="sub" class="flex relative gap-5 bg-gray-900/95 w-[90%] h-[90%] rounded-[50px] shadow-2xl p-5 m-2">
+            <div id="info" class="absolute text-white text-2xl w-[73%]">
+                <h2 id="title" class="text-white text-[50px]">Title:-</h2>
+                <div id="content" class="text-[25px] pt-3 justify-between">
+                    <div id="year" class="inline-block px-10">year:-</div>
+                    <div id="genre" class="inline-block px-10">genre:-</div>
+                    <div id="imdb" class="inline-block px-10">imdb:-</div>
+                </div>
+                <div id="description" class="pt-5">Description</div>
+            </div>
+            <div id="image" class="absolute bottom-[68px] right-3 ">
+                <img class="h-[500px] rounded-[20px]" src="Images/Avengers.webp">
+            </div>
+        </div>
+        <div id="close"
+            class="absolute top-10 right-10 text-white text-4xl font-bold cursor-pointer z-50 hover:scale-125 transition-transform duration-200">
+            X</div>
+    </div>
+
+    <footer class="bg-gray-900 text-white text-center py-4 mt-auto">
+        <p>© 2025 MovieVerse | Designed by Ashish Shenoy</p>
+    </footer>
+
+
+    <script src="index.js"></script>
+</body>
+
+
+</html>
+
+
