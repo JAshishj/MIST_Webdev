@@ -9,10 +9,12 @@ import Watchlist from "./Pages/watchlist";
 
 const router = createBrowserRouter([
   { path: "/", element: <Home /> },
-  {path: "/Search", element: <Search /> },
-  {path: "/Watchlist", element: <Watchlist /> },
+  {path: "/search", element: <Search /> },
+  {path: "/watchlist", element: <Watchlist /> },
   {path: "*", element: <div className="text-white text-3xl text-center mt-20">404 - Page Not Found</div> }
-]);
+],
+{  basename: "/MIST_Webdev/Task-5/"}
+);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
