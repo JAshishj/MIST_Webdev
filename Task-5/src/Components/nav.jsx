@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Nav = () => {
     return (
-        <header className="bg-[#0F0A1F]">
+        <header className="bg-[#0F0A1F] p-4 shadow-md">
             <h1 className="text-5xl text-[#D8B4FE] text-center pt-2 pb-4 underline">Manhwa Explorer</h1>
             <nav className="bg-[#1C1333] text-center border-2 rounded-xl shadow-inner">
                 <ul className="text-[24px] text-[#C084FC] p-2 m-0 list-none">

@@ -15,8 +15,8 @@ const ManhwaModal = ({ manhwa, onClose }) => {
   }
 
   return (
-    <div className="fixed inset-0 bg-black/50 backdrop-blur-xs justify-center items-center flex z-50">
-      <div className="flex relative gap-5 bg-[#0F0A1F] w-[90%] h-[90%] rounded-[50px] shadow-2xl p-5 m-2">
+    <div className="fixed inset-0 bg-black/50 backdrop-blur-sm flex justify-center items-center z-50 overflow-x-hidden">
+      <div className="flex relative gap-5 bg-[#0F0A1F] w-[90%] h-[90%] rounded-[50px] shadow-2xl p-5 m-2 overflow-hidden">
         <img src={manhwa.image} alt={manhwa.title} className="absolute bottom-[10%] right-4 h-125 rounded-[20px] "/>
         <div className="absolute text-white text-2xl w-[70%] h-[85%] bg-[#1C1333] rounded-[20px] p-6 my-7 ml-1.5 overflow-y-auto">
           <h2 className="text-[#bd8bef] text-[50px] font-bold underline">{manhwa.title}:-</h2>
