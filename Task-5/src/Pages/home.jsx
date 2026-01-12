@@ -15,7 +15,7 @@ const Home = () => {
                 <h1 className="text-4xl font-bold mb-4">Welcome to the Manhwa Explorer</h1>
                 <p className="text-lg mb-6">This is the main landing page of the application.</p>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-y-10 gap-x-5 px-2">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-y-10 gap-x-5 px-2">
                     {ManhwaData.map((manhwa) => (
                         <ManhwaCard key={manhwa.id} manhwa={manhwa} onClick={() => setSelectedManhwa(manhwa)} />
                     ))}

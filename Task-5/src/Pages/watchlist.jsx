@@ -21,7 +21,7 @@ const Watchlist = () => {
        <>
             <Nav />
             <div className="relative bg-[#0F0A1F] scroll-smooth flex flex-col min-h-screen text-white p-6">
-                <div className="grid grid-cols-4 gap-y-6 mt-5">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-10 gap-x-5 px-2">
                     {SavedManhwas.map((manhwa) => (
                         <ManhwaWatchlistModal key={manhwa.id} manhwa={manhwa} />
                     ))}
